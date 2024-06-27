@@ -7,11 +7,11 @@ cover: >-
 coverY: -139
 ---
 
-# Related Time-Series Resources
+# Related Time-Series Resources - collection of code and utilities that may be useful now or in the future
 
 A collection of good resources for time-series analysis (including in other programming languages like python and R) are listed here. See also larger collections of time-series resources, by [Lukasz Mentel](https://github.com/lmmentel/awesome-time-series) and, focused on python: [Max Christ](https://github.com/MaxBenChrist/awesome\_time\_series\_in\_python).
 
-### Time-Series Data
+### Time-Series Data - downloadable 'public' access data sources for time series work
 
 <table data-view="cards"><thead><tr><th align="center"></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><a href="http://www.comp-engine.org/"><code>CompEngine</code></a></td><td>Accompanying web resource that provides a self-organising database of time-series data. It allows users to upload, explore, and compare thousands of different types of time-series data. </td><td><a href="http://www.comp-engine.org/">http://www.comp-engine.org/</a></td></tr><tr><td align="center"><a href="https://github.com/DynamicsAndNeuralSystems/pyspi"><code>pyspi</code></a></td><td><em>pyspi</em> is a comprehensive python library for computing hundreds of statistics of pairwise interactions (SPIs) directly from multivariate time series (MTS) data.</td><td><a href="https://github.com/DynamicsAndNeuralSystems/pyspi">https://github.com/DynamicsAndNeuralSystems/pyspi</a></td></tr></tbody></table>
 
