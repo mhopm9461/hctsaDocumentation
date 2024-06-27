@@ -73,7 +73,7 @@ TS_Init('INP_test.mat','hctsa');
 
 When using a text file input, the input file now specifies filenames of time series data files, which Matlab will then attempt to load (using `dlmread`). Data files should thus be accessible in the Matlab path. Each time-series text file should have a single real number on each row, specifying the ordered values that make up the time series. Once imported, the time-series data is stored in the database; thus the original time-series data files are no longer required, and can be removed from the Matlab path.
 
-The input text file should be formatted as rows with each row specifying two whitespace separated entries: (i) the file name of a time-series data file and (ii) comma-delimited keywords.
+The input text file **(aka MH TS Processing "summary.txt")** should be formatted as rows with each row specifying two whitespace separated entries: (i) the file name of a time-series data file and (ii) comma-delimited keywords.
 
 For example, consider the following input file, containing three lines (one for each time series to be added to the database):
 
