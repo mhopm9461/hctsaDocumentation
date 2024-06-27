@@ -43,11 +43,11 @@ Calculations are performed using the function `TS_Compute`, which stores results
     TS_Compute(false,[],[],'missing','my_HCTSA_file.mat');
 ```
 
-(5) Suppress commandline output. All computations are displayed to screen by default (which can be overwhelming but is useful for error checking). This functionality can be suppressed by setting the final (6th) input to `false`:
+(5) **Suppress commandline output**. All computations are displayed to screen by default (which can be overwhelming but is useful for error checking). **This functionality can be suppressed by setting the final (6th) input to `false`**:
 
 ```
     % Compute all missing values in HCTSA.mat, suppressing output to screen:
-    TS_Compute(false,[],[],'missing','',false);
+    TS_Compute(false,[],[],'missing','',false); % 6th (final) = suppresses screen OP when 'false', else left empty. 
 ```
 
 ## Computation approaches for full datasets
