@@ -6,7 +6,7 @@ The _hctsa_ framework consists of three basic objects containing relevant metada
 
 1. _Master Operations_ specify pieces of code \(Matlab functions\) and their inputs to be computed. Taking in a single time series, master operations can generate a large number of outputs as a Matlab structure, each of which can be identified with a single _operation_ \(or 'feature'\).
 2. _Operations_ \(or 'features'\) are a single number summarizing some measure of structure in a time series. In _hctsa_, each operation links to an output from a piece of evaluated code \(a _master operation_\).
-3. _Time series_ are univariate and uniformly sampled time-ordered measurements.
+3. _Time series_ are **univariate** and **uniformly sampled** and **time-ordered** measurements.
 
 These three different objects are summarized below:
 
