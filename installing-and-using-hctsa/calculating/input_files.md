@@ -58,7 +58,8 @@ An example involving two time series is below. In this example, we add two time 
 
 ```
 timeSeriesData = {[1.45,2.87,...],[8.53,-1.244,...]}; % (a cell of vectors)
-labels = {'EEGExperiment_sub1_trail1.dat','EEGExperiment_sub1_trail2.dat'}; % data labels for each time series
+% labels = {'EEGExperiment_sub1_trail1.dat','EEGExperiment_sub1_trail2.dat'}; % data labels for each time series % incorrect spelling for "trial"
+labels = {'EEGExperiment_sub1_trial1.dat','EEGExperiment_sub1_trial2.dat'}; % data labels for each time series
 keywords = {'subject1,trial1,eeg','subject1,trial2,eeg'}; % comma-delimited keywords for each time series
 
 % Save these variables out to INP_test.mat:
