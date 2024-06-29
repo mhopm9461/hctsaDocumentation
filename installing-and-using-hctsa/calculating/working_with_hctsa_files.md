@@ -70,7 +70,7 @@ _Example 1_: Import data from 'HCTSA\_N.mat', then save a new dataset containing
 TS_Subset('norm',1:100,[],1,'HCTSA_N_subset.mat')
 ```
 
-Note that the subset in this case will have be normalized using the full dataset of all time series, and just this subset \(with IDs up to 100\) are now being analyzed. Depending on the normalization method used, different results would be obtained if the subsetting was performed prior to normalization.
+Note that the subset in this case will have been normalized using the full dataset of all time series, and just this subset \(with IDs up to 100\) are now being analyzed. Depending on the normalization method used, different results would be obtained if the subsetting was performed prior to normalization.
 
 _Example 2_: From `HCTSA.mat` \(`'raw'`\), save a subset of that dataset to 'HCTSA\_healthy.mat' containing only time series tagged with the 'healthy' keyword:
 
