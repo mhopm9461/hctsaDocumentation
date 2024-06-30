@@ -48,7 +48,7 @@ If there are hundreds or thousands of statistically significant features, some o
 
 Plotting and inspecting clustered feature–feature correlation plots are crucial for identifying groups of features with similar behavior on the dataset. Then we can inspect and interpret these groups of similar (highly inter-correlated) features together as a group. This should be the first step in interpreting a set of significant features: which groups of features behave similarly, and what common concepts are they measuring?
 
-An example is here, were [Bailey et al. (2023)](https://www.biorxiv.org/content/10.1101/2023.06.23.546355v1) identified 3 important groups of features—measuring stationarity of self-correlation properties, stationarity of distributional properties, and global distributional properties—and then go on to interpret each in turn:
+An example is here, where [Bailey et al. (2023)](https://www.biorxiv.org/content/10.1101/2023.06.23.546355v1) identified 3 important groups of features—measuring stationarity of self-correlation properties, stationarity of distributional properties, and global distributional properties—and then go on to interpret each in turn:
 
 ![](<../../.gitbook/assets/image (6).png>)
 
