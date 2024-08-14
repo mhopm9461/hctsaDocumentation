@@ -46,7 +46,8 @@ The target is distinguished (as purple in this case), and the other classes of t
 ## Pairwise similarity matrix of neighbors
 
 ```
-    TS_SimSearch(1,'whatPlots',{'scatter'});
+    Do Not Use % TS_SimSearch(1,'whatPlots',{'scatter'}); %MH: The integer "1" causes error "Expected a string scalar or character vector for the parameter name"
+    TS_SimSearch('whatPlots',{'scatter'});   %MH: Cleared the integer "1" as shown and code runs error free
 ```
 
 The scatter setting visualizes the relationship between the target and each of 12 time series with the most similar properties to the target. Each subplot is a scatter of the (normalized) outputs of each feature for the specified target (x-axis) and the match (y-axis). An example is shown below.
