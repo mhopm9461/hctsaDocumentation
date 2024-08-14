@@ -10,7 +10,7 @@ TS_PlotLowDim('norm','pca');
 
 This uses the normalized data (specifying `'norm'`), plotting time series in the reduced, two-dimensional principal components space of operations (the leading two principal components of the data matrix).
 
->>This does not appear to be true, and/or I dont know how to use it properly: "By default, the user will be prompted to select 10 points on the plot to annotate with their corresponding time series, which are annotated as the first 300 points of that time series (and their names by default).
+By default *[not strictly true - can be achieved in customized annotations below, but does not behave like this OOB]*, the user will be prompted to select 10 points on the plot to annotate with their corresponding time series, which are annotated as the first 300 points of that time series (and their names by default).
 
 After selecting 10 points, we have the following:
 
