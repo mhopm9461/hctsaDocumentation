@@ -31,8 +31,7 @@ In this case we see that the purple and green classes are relatively similar und
 Another way to visualize the similarity (under our feature-based distance metric) of all pairs of neighbors is using a network visualization. This is specified as:
 
 ```
-    Do Not Use % TS_SimSearch(1,'whatPlots',{'network'}); %MH: The integer "1" causes error "Expected a string scalar or character vector for the parameter name"
-    TS_SimSearch('whatPlots',{'network'});   %MH: Cleared the integer "1" as shown and code runs error free
+    TS_SimSearch('whatPlots',{'network'});
 ```
 
 which produces something like the following:
@@ -46,8 +45,7 @@ The target is distinguished (as purple in this case), and the other classes of t
 ## Pairwise similarity matrix of neighbors
 
 ```
-    Do Not Use % TS_SimSearch(1,'whatPlots',{'scatter'}); %MH: The integer "1" causes error "Expected a string scalar or character vector for the parameter name"
-    TS_SimSearch('whatPlots',{'scatter'});   %MH: Cleared the integer "1" as shown and code runs error free
+    TS_SimSearch('whatPlots',{'scatter'});
 ```
 
 The scatter setting visualizes the relationship between the target and each of 12 time series with the most similar properties to the target. Each subplot is a scatter of the (normalized) outputs of each feature for the specified target (x-axis) and the match (y-axis). An example is shown below.
@@ -59,7 +57,7 @@ The scatter setting visualizes the relationship between the target and each of 1
 Multiple output plots can be produced simultaneously by specifying many types of plots as follows:
 
 ```
-    TS_SimSearch(1,'whatPlots',{'matrix','network','scatter'})
+    TS_SimSearch('whatPlots',{'matrix','network','scatter'})
 ```
 
 This produces a plot of each type.
