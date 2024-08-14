@@ -31,7 +31,8 @@ In this case we see that the purple and green classes are relatively similar und
 Another way to visualize the similarity (under our feature-based distance metric) of all pairs of neighbors is using a network visualization. This is specified as:
 
 ```
-    TS_SimSearch(1,'whatPlots',{'network'});
+    Do Not Use % TS_SimSearch(1,'whatPlots',{'network'}); %MH: The integer "1" causes error "Expected a string scalar or character vector for the parameter name"
+    TS_SimSearch('whatPlots',{'network'});   %MH: Cleared the integer "1" as shown and code runs error free
 ```
 
 which produces something like the following:
